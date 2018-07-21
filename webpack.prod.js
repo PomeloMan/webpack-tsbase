@@ -36,7 +36,6 @@ module.exports = merge(config, {
     ],
     module: {
         rules: [
-            // npm install sass-loader node-sass --save-dev
             {
                 test: /\.(css|sass|scss)$/,
                 use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'] //css压缩

@@ -15,7 +15,7 @@ module.exports = merge(common, {
     },
     module: {
         rules: [
-            //npm install --save-dev style-loader css-loader/ npm install sass-loader node-sass --save-dev
+            //npm install --save-dev style-loader css-loader sass-loader node-sass
             {
                 test: /\.(css|sass|scss)$/,
                 loader: 'style-loader!css-loader!sass-loader'
